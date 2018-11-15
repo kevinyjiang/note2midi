@@ -7,6 +7,9 @@ Disclaimer: this probably already exists but YOLO
 
 import sys, os.path
 
+# Butter Notes
+BUTTER NOTES = ['tasty','chonky','thicc','uhhh']
+
 # Constants
 NOTES = ['C','D','E','F','G','A','B'] 
 ACCIDENTALS = ['b', ''] # Flat and Natural (sharps are for plebs)
