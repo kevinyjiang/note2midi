@@ -12,7 +12,7 @@ NOTES = ['C','D','E','F','G','A','B']
 ACCIDENTALS = ['b', ''] # Flat and Natural (sharps are for plebs)
 NON_ACCIDENTAL_NOTES = ['F', 'C'] # F and C are not usually referred to as E# and B# (unless ur a pleb)
 
-# Returns mapping from notes (i.e. C6, G9, A0) to MIDI indexes
+# Returns mapping from notes (i.e. C5, G6, A0) to MIDI indexes
 def generate_mapping():
 	# Notes C0 to Ab0 will probably never be indexed, but generated for convenience
 	midi_idx = 12 
@@ -35,6 +35,7 @@ def generate_mapping():
 if __name__ == "__main__":
 	input_notes = sys.argv[1:]
 
+	# If mapping file does not already exist, write it
 	if os.path.isfile("note2midi_map"):
 		with open("note2midi_map", 'r') as f:
 			mapping = eval(f.read())
