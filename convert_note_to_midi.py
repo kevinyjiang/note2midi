@@ -8,7 +8,7 @@ Disclaimer: this probably already exists but YOLO
 import sys, os.path
 
 # Butter Notes
-BUTTER NOTES = ['tasty','chonky','thicc','uhhh']
+BUTTER_NOTES = ['tasty','chonky','thicc','uhhh']
 
 # Constants
 NOTES = ['C','D','E','F','G','A','B'] 
