@@ -6,7 +6,7 @@
 
 """
 
-import sys, os.path
+import sys
 
 # Constants
 NOTES = ['C','D','E','F','G','A','B']
