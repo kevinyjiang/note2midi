@@ -1,4 +1,5 @@
 """
+
     Note to MIDI Number converter
     
     Author: Kevin Jiang
@@ -6,11 +7,13 @@
 
 """
 
+### TODO: Add support for sharp accidentals
+
 import sys
 
 # Constants
 NOTES = ['C','D','E','F','G','A','B']
-ACCIDENTALS = ['b', ''] # Flat and Natural (sharps are for plebs)
+ACCIDENTALS = ['b', '']
 NON_ACCIDENTAL_NOTES = ['F', 'C'] # F and C are not usually referred to as E# and B# (unless ur a pleb)
 
 MAPPING = {'A0': 21, 'Bb0': 22, 'B0': 23, 'C1': 24, 'Db1': 25, 'D1': 26, 'Eb1': 27, 'E1': 28, 'F1': 29, 'Gb1': 30, 'G1': 31, 'Ab1': 32,
